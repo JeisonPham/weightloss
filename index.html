@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>How much should I lose?</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+</head>
+<body id="bdy">
+	<h1 class="display-2 text-center"> How much should I lose?</h1>
+	<div class="row form-group justify-content-center align-items-center">
+		<div class="col-xs-2 text-center p-3">
+			<label>Weight(required)</label>
+			<input type="number" class="form-control" id="weight" placeholder="lbs">
+		</div>
+		<div class="col-xs-2 text-center p-3">
+			<label>waist(required)</label>
+			<input type="number" class="form-control" id="waist" placeholder="inches">
+		</div>
+	</div>
+
+	<div class="row form-group justify-content-center align-items-center">
+		<div class="col-xs-2 text-center p-3 ">
+			<label>Wrist(Female)</label>
+			<input type="number" class="form-control" id="wrist" placeholder="inches">
+		</div>
+		<div class="col-xs-2 text-center p-3">
+			<label>Hip(Female)</label>
+			<input type="number" class="form-control" id="hip" placeholder="inches">
+		</div>
+		<div class="col-xs-2 text-center p-3">
+			<label>Forearm(Female)</label>
+			<input type="number" class="form-control" id="forearm" placeholder="inches">
+		</div>
+	</div>
+
+	<div id="information" class="text-center"></div>
+	<div class="row form-group justify-content-center align-items-center">
+		<div id="goal" class="col-xs-1 text-center p-3" style="visibility: hidden">
+				<label>Desired percentage</label>
+				<input type="number" class="form-control" id="task" placeholder="Percentage">
+		</div>
+	</div>
+	<div id="advice" class="text-center justify-content-center align-text-center" style="margin: 0 14% 0 14%;"></div>
+<script src="dom.js"></script>
+</body>
+</html>
